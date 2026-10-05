@@ -1,0 +1,30 @@
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--white);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+}
+
+.empty-state h2 {
+  margin-bottom: 8px;
+}
+
+.empty-state p {
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.empty-btn {
+  display: inline-block;
+  background: var(--primary);
+  color: var(--white);
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.empty-btn:hover {
+  background: var(--primary-dark);
+}

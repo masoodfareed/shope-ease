@@ -1,0 +1,11 @@
+.image-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+  background: var(--border);
+  color: var(--text-light);
+  font-size: 0.8rem;
+  font-weight: 500;
+}

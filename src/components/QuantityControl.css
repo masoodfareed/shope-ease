@@ -1,0 +1,38 @@
+.quantity-control {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--white);
+}
+
+.quantity-control button {
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+
+.quantity-control button:hover:not(:disabled) {
+  background: var(--bg);
+}
+
+.quantity-control button:disabled {
+  color: #d1d5db;
+  cursor: not-allowed;
+}
+
+.quantity-value {
+  min-width: 36px;
+  text-align: center;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .quantity-control button {
+    width: 40px;
+    height: 40px;
+  }
+}
